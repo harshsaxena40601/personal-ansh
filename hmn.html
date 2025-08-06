@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Madhu ❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&family=Caveat:wght@400;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 15%, #f093fb 30%, #f5576c 45%, #4facfe 60%, #00f2fe 75%, #ff9a9e 90%, #fecfef 100%);
+            background-size: 500% 500%;
+            animation: dreamyGradient 20s ease infinite;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        @keyframes dreamyGradient {
+            0% { background-position: 0% 50%; }
+            20% { background-position: 100% 50%; }
+            40% { background-position: 50% 100%; }
+            60% { background-position: 0% 100%; }
+            80% { background-position: 50% 0%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* Enhanced floating love messages */
+        .love-message {
+            position: absolute;
+            font-family: 'Caveat', cursive;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: clamp(10px, 1.5vw, 14px);
+            animation: floatLove 12s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 1;
+            text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+            font-weight: 700;
+            white-space: nowrap;
+            padding: 5px 10px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        @keyframes floatLove {
+            0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); opacity: 0.7; }
+            25% { transform: translateY(-25px) rotate(5deg) scale(1.1); opacity: 1; }
+            50% { transform: translateY(-15px) rotate(-3deg) scale(0.9); opacity: 0.8; }
+            75% { transform: translateY(-20px) rotate(2deg) scale(1.05); opacity: 0.9; }
+        }
+        
+        /* Enhanced photo frames */
+.photo-frame {
+    position: absolute;
+    width: clamp(70px, 8vw, 100px);
+    height: clamp(70px, 8vw, 100px);
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.95);
+    background: linear-gradient(135deg, #ff9a9e, #fecfef, #ffeaa7, #a8edea),
+                url('/personal/image.jpg') center/cover;
+    background-size: 200% 200%, cover;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+    animation: photoFloat 15s ease-in-out infinite, gradientShift 8s ease infinite;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(12px, 2vw, 20px);
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    }
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .photo-frame::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            animation: photoShimmer 5s ease-in-out infinite;
+        }
+        
+        @keyframes photoShimmer {
+            0%, 100% { transform: translateX(-120%) translateY(-120%) rotate(45deg); }
+            50% { transform: translateX(120%) translateY(120%) rotate(45deg); }
+        }
+        
+        .photo-frame:hover {
+            transform: scale(1.4) rotate(10deg) !important;
+            z-index: 100;
+            opacity: 1;
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+        }
+        
+        @keyframes photoFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(-30px) rotate(10deg); }
+            50% { transform: translateY(-20px) rotate(-7deg); }
+            75% { transform: translateY(-25px) rotate(5deg); }
+        }
+        
+        /* Enhanced floating particles */
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: particleFloat 15s linear infinite;
+            z-index: 1;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(100vh) rotate(0deg) scale(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+                transform: translateY(90vh) rotate(90deg) scale(1);
+            }
+            90% {
+                opacity: 1;
+                transform: translateY(-10vh) rotate(450deg) scale(1);
+            }
+            100% {
+                transform: translateY(-20vh) rotate(540deg) scale(0);
+                opacity: 0;
+            }
+        }
+        
+        /* Enhanced floating hearts */
+        .heart {
+            position: absolute;
+            color: rgba(255, 182, 193, 0.9);
+            font-size: clamp(14px, 2.5vw, 24px);
+            animation: heartFloat 10s linear infinite;
+            pointer-events: none;
+            z-index: 2;
+            text-shadow: 0 3px 15px rgba(255, 107, 157, 0.8);
+            filter: drop-shadow(0 0 10px rgba(255, 107, 157, 0.6));
+        }
+        
+        @keyframes heartFloat {
+            0% {
+                transform: translateY(100vh) rotate(0deg) scale(0.5);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+                transform: translateY(90vh) rotate(45deg) scale(1);
+            }
+            90% {
+                opacity: 1;
+                transform: translateY(-50px) rotate(405deg) scale(1.2);
+            }
+            100% {
+                transform: translateY(-100px) rotate(450deg) scale(0);
+                opacity: 0;
+            }
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        
+        /* Enhanced Landing Page Styles */
+        .landing-page {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
+            border-radius: 35px;
+            padding: 70px 50px;
+            box-shadow: 0 40px 120px rgba(0, 0, 0, 0.25), 0 20px 60px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(30px);
+            margin-top: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.5);
+            position: relative;
+            overflow: hidden;
+            animation: landingAppear 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        @keyframes landingAppear {
+            0% { opacity: 0; transform: translateY(60px) scale(0.8) rotateY(20deg); }
+            100% { opacity: 1; transform: translateY(0) scale(1) rotateY(0deg); }
+        }
+        
+        .landing-page::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent, rgba(255, 182, 193, 0.2), transparent);
+            animation: landingShimmer 6s ease-in-out infinite;
+            pointer-events: none;
+        }
+        
+        @keyframes landingShimmer {
+            0%, 100% { transform: translateX(-120%) rotate(45deg); }
+            50% { transform: translateX(120%) rotate(45deg); }
+        }
+        
+        .birthday-decoration {
+            font-size: clamp(2.8rem, 7vw, 4.5rem);
+            margin-bottom: 30px;
+            animation: decorationBounce 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            text-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            filter: drop-shadow(0 0 20px rgba(255, 107, 157, 0.5));
+        }
+        
+        @keyframes decorationBounce {
+            0% { transform: scale(0.2) rotate(-270deg); opacity: 0; }
+            50% { transform: scale(1.3) rotate(-15deg); opacity: 0.8; }
+            100% { transform: scale(1) rotate(0deg); opacity: 1; }
+        }
+        
+        .name-display {
+            font-family: 'Dancing Script', cursive;
+            font-size: clamp(4rem, 12vw, 7rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff6b9d, #c44569, #f8b500, #ff6348, #667eea, #764ba2, #f093fb);
+            background-size: 500% 500%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 50px 0;
+            animation: nameGlow 3s ease-in-out, nameColorShift 4s ease infinite;
+            text-shadow: 0 0 60px rgba(255, 107, 157, 0.8);
+            position: relative;
+            z-index: 5;
+            transition: all 0.3s ease;
+        }
+        
+        @keyframes nameGlow {
+            0% { transform: scale(0.3) rotateY(270deg); opacity: 0; filter: blur(20px); }
+            60% { transform: scale(1.2) rotateY(-15deg); opacity: 0.9; filter: blur(3px); }
+            100% { transform: scale(1) rotateY(0deg); opacity: 1; filter: blur(0px); }
+        }
+        
+        @keyframes nameColorShift {
+            0%, 100% { background-position: 0% 50%; }
+            33% { background-position: 50% 100%; }
+            66% { background-position: 100% 50%; }
+        }
+        
+        .birthday-text {
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            background: linear-gradient(45deg, #c44569, #ff6b9d, #f8b500, #667eea);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 60px;
+            font-weight: 700;
+            animation: textPulse 4s ease-in-out infinite, textColorShift 6s ease infinite;
+            text-shadow: 0 8px 30px rgba(255, 107, 157, 0.4);
+        }
+        
+        @keyframes textColorShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        @keyframes textPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .start-btn {
+            background: linear-gradient(135deg, #ff6b9d 0%, #c44569 25%, #f8b500 50%, #ff6348 75%, #667eea 100%);
+            background-size: 300% 300%;
+            color: white;
+            padding: 25px 70px;
+            border: none;
+            border-radius: 70px;
+            font-size: clamp(1.2rem, 3.5vw, 1.6rem);
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 25px 60px rgba(255, 107, 157, 0.6);
+            position: relative;
+            overflow: hidden;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            z-index: 5;
+            animation: buttonGradient 5s ease infinite;
+        }
+        
+        @keyframes buttonGradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .start-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+            transition: left 1s;
+        }
+        
+        .start-btn:hover::before {
+            left: 100%;
+        }
+        
+        .start-btn:hover {
+            transform: translateY(-10px) scale(1.1);
+            box-shadow: 0 40px 90px rgba(255, 107, 157, 0.8);
+        }
+        
+        /* Enhanced Quiz Container */
+        .quiz-container {
+            display: none;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
+            border-radius: 35px;
+            padding: 60px 50px;
+            box-shadow: 0 40px 120px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(30px);
+            margin-top: 30px;
+            border: 3px solid rgba(255, 255, 255, 0.5);
+            animation: quizSlideIn 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        @keyframes quizSlideIn {
+            from { opacity: 0; transform: translateY(80px) scale(0.8) rotateX(20deg); }
+            to { opacity: 1; transform: translateY(0) scale(1) rotateX(0deg); }
+        }
+        
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        
+        .question-counter {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 18px 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+            animation: counterGlow 3s ease-in-out infinite;
+        }
+        
+        @keyframes counterGlow {
+            0%, 100% { box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5); }
+            50% { box-shadow: 0 20px 50px rgba(102, 126, 234, 0.7); }
+        }
+        
+        .score-display {
+            background: linear-gradient(135deg, #ff6b9d, #c44569);
+            color: white;
+            padding: 18px 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: 0 15px 40px rgba(255, 107, 157, 0.5);
+            animation: scoreGlow 3s ease-in-out infinite;
+        }
+        
+        @keyframes scoreGlow {
+            0%, 100% { box-shadow: 0 15px 40px rgba(255, 107, 157, 0.5); }
+            50% { box-shadow: 0 20px 50px rgba(255, 107, 157, 0.7); }
+        }
+        
+        .progress-container {
+            background: rgba(255, 255, 255, 0.4);
+            height: 15px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            overflow: hidden;
+            box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #ff6b9d, #c44569, #f8b500, #667eea);
+            background-size: 300% 100%;
+            border-radius: 15px;
+            transition: width 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            animation: progressGlow 4s ease-in-out infinite, progressShift 8s ease infinite;
+        }
+        
+        @keyframes progressShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        @keyframes progressGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 157, 0.6); }
+            50% { box-shadow: 0 0 40px rgba(255, 107, 157, 0.9); }
+        }
+        
+        .mood-indicator {
+            font-size: clamp(3.5rem, 10vw, 6rem);
+            margin: 40px 0;
+            animation: moodBounce 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            filter: drop-shadow(0 0 20px rgba(255, 107, 157, 0.6));
+        }
+        
+        @keyframes moodBounce {
+            0% { transform: scale(0.2) rotate(270deg); opacity: 0; }
+            60% { transform: scale(1.3) rotate(-15deg); opacity: 0.9; }
+            100% { transform: scale(1) rotate(0deg); opacity: 1; }
+        }
+        
+        .question {
+            font-size: clamp(1.4rem, 4.5vw, 2rem);
+            color: #2c3e50;
+            margin: 50px 0;
+            font-weight: 600;
+            background: linear-gradient(135deg, #a8edea, #fed6e3, #ffeaa7);
+            background-size: 200% 200%;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+            animation: questionSlide 1s ease-out, questionGradient 10s ease infinite;
+            border: 4px solid rgba(255, 107, 157, 0.4);
+        }
+        
+        @keyframes questionGradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        @keyframes questionSlide {
+            from { opacity: 0; transform: translateX(-60px) rotateY(20deg); }
+            to { opacity: 1; transform: translateX(0) rotateY(0deg); }
+        }
+        
+        .options-grid {
+            display: grid;
+            gap: 25px;
+            margin: 50px 0;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        
+        .option {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px 35px;
+            border: none;
+            border-radius: 30px;
+            font-size: clamp(1.1rem, 3vw, 1.3rem);
+            cursor: pointer;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-weight: 600;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 15px 45px rgba(102, 126, 234, 0.5);
+            border: 3px solid transparent;
+        }
+        
+        .option::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transition: all 1s ease;
+            transform: translate(-50%, -50%);
+        }
+        
+        .option:hover::before {
+            width: 500px;
+            height: 500px;
+        }
+        
+        .option:hover {
+            transform: translateY(-10px) scale(1.08);
+            box-shadow: 0 25px 70px rgba(102, 126, 234, 0.7);
+            border-color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .option.selected {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            transform: scale(1.08);
+            border-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 20px 60px rgba(240, 147, 251, 0.6);
+        }
+        
+        .option.correct {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            animation: correctCelebration 1.5s ease;
+            box-shadow: 0 25px 70px rgba(79, 172, 254, 0.8);
+        }
+        
+        .option.wrong {
+            background: linear-gradient(135deg, #fa709a, #fee140);
+            animation: wrongShake 1s ease;
+            box-shadow: 0 20px 60px rgba(250, 112, 154, 0.6);
+        }
+        
+        @keyframes correctCelebration {
+            0%, 100% { transform: scale(1); }
+            25% { transform: scale(1.15) rotate(3deg); }
+            50% { transform: scale(1.2) rotate(-3deg); }
+            75% { transform: scale(1.15) rotate(2deg); }
+        }
+        
+        @keyframes wrongShake {
+            0%, 100% { transform: translateX(0); }
+            10% { transform: translateX(-15px) rotate(-3deg); }
+            20% { transform: translateX(15px) rotate(3deg); }
+            30% { transform: translateX(-12px) rotate(-2deg); }
+            40% { transform: translateX(12px) rotate(2deg); }
+            50% { transform: translateX(-8px) rotate(-1deg); }
+            60% { transform: translateX(8px) rotate(1deg); }
+            70% { transform: translateX(-5px); }
+            80% { transform: translateX(5px); }
+        }
+        
+        .feedback {
+            text-align: center;
+            padding: 30px;
+            border-radius: 30px;
+            margin: 30px 0;
+            font-weight: 600;
+            font-size: 1.2rem;
+            animation: feedbackAppear 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+        }
+        
+        .feedback.success {
+            background: linear-gradient(135deg, #c6f6d5, #9ae6b4);
+            color: #22543d;
+            border: 4px solid #38a169;
+        }
+        
+        .feedback.error {
+            background: linear-gradient(135deg, #fed7d7, #feb2b2);
+            color: #742a2a;
+            border: 4px solid #e53e3e;
+        }
+        
+        @keyframes feedbackAppear {
+            from { opacity: 0; transform: translateY(40px) scale(0.8); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        
+        /* Enhanced Special Note */
+        .special-note {
+            display: none;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 30%, #f093fb 60%, #ff6b9d 100%);
+            background-size: 300% 300%;
+            color: white;
+            border-radius: 35px;
+            padding: 80px 60px;
+            margin-top: 30px;
+            box-shadow: 0 50px 150px rgba(0, 0, 0, 0.5);
+            animation: noteReveal 2s cubic-bezier(0.175, 0.885, 0.32, 1.275), noteGradientShift 12s ease infinite;
+            position: relative;
+            overflow: hidden;
+            border: 4px solid rgba(255, 255, 255, 0.4);
+        }
+        
+        @keyframes noteGradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .special-note::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: noteShimmer 8s ease-in-out infinite;
+        }
+        
+        @keyframes noteReveal {
+            0% { opacity: 0; transform: rotateX(120deg) scale(0.2); }
+            50% { opacity: 0.8; transform: rotateX(60deg) scale(0.6); }
+            100% { opacity: 1; transform: rotateX(0deg) scale(1); }
+        }
+        
+        @keyframes noteShimmer {
+            0%, 100% { transform: translateX(-120%) translateY(-120%) rotate(45deg); }
+            50% { transform: translateX(120%) translateY(120%) rotate(45deg); }
+        }
+        
+        .note-content {
+            font-family: 'Dancing Script', cursive;
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            line-height: 1.9;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .love-heart {
+            color: #ff6b9d;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            animation: heartbeat 2.5s ease-in-out infinite;
+            text-shadow: 0 0 40px rgba(255, 107, 157, 1);
+            display: inline-block;
+            filter: drop-shadow(0 0 20px rgba(255, 107, 157, 0.8));
+        }
+        
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.5); }
+        }
+        
+        /* Enhanced supportive messages */
+        .supportive-message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 182, 193, 0.9));
+            color: #2c3e50;
+            padding: 15px 25px;
+            border-radius: 25px;
+            font-family: 'Caveat', cursive;
+            font-size: 1.2rem;
+            font-weight: 700;
+            z-index: 1000;
+            animation: supportiveSlide 0.8s ease-out, supportiveGlow 3s ease-in-out infinite;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(15px);
+            border: 2px solid rgba(255, 107, 157, 0.3);
+        }
+        
+        @keyframes supportiveSlide {
+            from { transform: translateX(400px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes supportiveGlow {
+            0%, 100% { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
+            50% { box-shadow: 0 15px 40px rgba(255, 107, 157, 0.4); }
+        }
+        
+        /* Enhanced responsive design */
+        @media (max-width: 768px) {
+            .container { padding: 15px; }
+            .landing-page, .quiz-container { padding: 40px 25px; }
+            .quiz-header { flex-direction: column; text-align: center; }
+            .options-grid { grid-template-columns: 1fr; gap: 20px; }
+            .special-note { padding: 50px 30px; }
+        }
+        
+        /* Enhanced answer feedback */
+        .answer-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            padding: 30px 50px;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            z-index: 10000;
+            animation: feedbackPop 2s ease-out forwards;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        @keyframes feedbackPop {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.3); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+            90% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+        }
+        
+        /* Enhanced celebration effects */
+        .confetti {
+            position: fixed;
+            top: -10px;
+            pointer-events: none;
+            z-index: 9999;
+            animation: confettiFall 3s linear forwards;
+        }
+        
+        @keyframes confettiFall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        /* Enhanced floating names */
+        .floating-name {
+            position: fixed;
+            font-family: 'Dancing Script', cursive;
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-weight: 700;
+            color: rgba(255, 107, 157, 0.9);
+            z-index: 5;
+            animation: nameFloat 8s ease-in-out infinite;
+            text-shadow: 0 3px 15px rgba(255, 107, 157, 0.6);
+            pointer-events: none;
+        }
+        
+        @keyframes nameFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); opacity: 0.7; }
+            25% { transform: translateY(-30px) rotate(5deg) scale(1.1); opacity: 1; }
+            50% { transform: translateY(-20px) rotate(-3deg) scale(0.9); opacity: 0.8; }
+            75% { transform: translateY(-25px) rotate(2deg) scale(1.05); opacity: 0.9; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Enhanced floating elements -->
+    <div id="floatingElements"></div>
+    
+    <!-- Enhanced supportive message -->
+    <div class="supportive-message" id="supportiveMessage">
+        You're doing amazing! 💕
+    </div>
+    
+    <!-- Enhanced floating names -->
+    <div id="floatingNames"></div>
+
+
+
+
+
+    <div class="container">
+        <!-- Enhanced Landing Page -->
+        <div class="landing-page" id="landingPage">
+            <div class="birthday-decoration">🎂✨🎉</div>
+            <h1 class="name-display">Madhu</h1>
+            <h2 class="birthday-text">Happy Birthday!</h2>
+            <button class="start-btn" onclick="startQuiz()">
+                Start Your Special Quiz ✨
+            </button>
+        </div>
+
+        <!-- Enhanced Quiz Container -->
+        <div class="quiz-container" id="quizContainer">
+            <div class="quiz-header">
+                <div class="question-counter" id="questionCounter">Question 1/7</div>
+                <div class="score-display" id="scoreDisplay">Score: 0/7</div>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <div class="mood-indicator" id="moodIndicator">😊</div>
+            
+            <div class="question" id="questionText">
+                Loading your special question...
+            </div>
+
+            <div class="options-grid" id="optionsContainer">
+                <!-- Options will be populated by JavaScript -->
+            </div>
+
+            <div class="feedback" id="feedback" style="display: none;"></div>
+        </div>
+
+        <!-- Enhanced Special Note -->
+        <div class="special-note" id="specialNote">
+            <div class="note-content">
+                <h1>Hii Meri Jaan ❤️</h1>
+    <p>So ye message aapke liye hai. Pehle toh <strong>Happy Birthday</strong>, waise toh kuch kiya nahi hai paida hoke kuch khaas,</p>
+    <p>Lekin still mere liye toh kaafi achha hai ki tum aayi.</p>
+    <p>Aur sach kahu toh seriously <strong>I really love you</strong>.</p>
+    <p>I know kabhi kabhi gussa ho jata hoon, but hamesha gussa nahi rehta, samjhi?<br>
+    <strong>I love you meri jaan</strong> <span class="heart">❤</span></p>
+
+    <p>Dekho, suno meri baat — ye <strong>I really love you meri jaan</strong>,<br>
+    I know kabhi kabhi pareshan kar deta hoon, sorry uske liye,<br>
+    But <strong>I really really love you</strong>.<br>
+    Aur haan, baat rahi sab kuch delete karne ki — tumhara toh nahi pata,<br>
+    But mere liye ye sabse best memories hain.<br>
+    I know kabhi kabhi drame zyada ho jaate hain,<br>
+    But seriously, <strong>I really love you bacha</strong> <span class="heart">❤🥹</span></p>
+
+    <p>Dekho I know ki kabhi kabhi sahi time nahi chalta,<br>
+    Gussa kar deta hoon tum par baar-baar,<br>
+    Bahut pyaar karta hoon aapko,<br>
+    Bahut pareshan bhi karta hoon,<br>
+    Lekin usse zyada pyaar karta hoon aapko meri jaan <span class="heart">❤</span></p>
+
+    <p>Dekho meri Madhu, zyada bhaav na khaya karo, samjhi pglot,<br>
+    Meri jaan, main aapke saath hamesha rehna chahta hoon,<br>
+    Kabhi alag nahi hona chahta.<br>
+    I know kabhi kabhi kuch cheezein achhi nahi chalti,<br>
+    But I know main sab theek kar dunga sachhi!</p>
+
+    <p>Hmm... aur baaki sab cheezein jaise<br>
+    Mujhe mota bolke muh sad lena<br>
+    Aur fir drame karna,<br>
+    Waise toh bahut sakt ho,<br>
+    Itna bhi nahi...</p>
+
+    <p>Tumhare bina dil nahi lagta jaan<br>
+    Haan pata hai mujhe,<br>
+    Kabhi kabhi kuch cheezein kar jaata hoon,<br>
+    But sach kahu, pyaar bahut karta hoon aapko.<br>
+    I know thoda bewakoof hoon,<br>
+    But insaan accha hoon.</p>
+
+    <p>Dekho, fikr toh sab karte hain,<br>
+    But main gussa karta hoon... hoon thoda sa pglot!</p>
+
+    <p>I know cheezein thodi alag hain,<br>
+    But <strong>I know I can give you all my love</strong>, jaan <span class="heart">❤🥹❤</span>
+                Forever yours 💗</p>
+  </div>
+
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced quiz data
+       const quizData = [
+
+    {
+        question: "Meko aap mein sabse zda kya pasand hai? Birthday hai tho ye tho btana padega! 🎂",
+        options: ["Harkatein", "Sirat", "Care", "Drame"],
+        correct: 1,
+        mood: "💖"
+    },
+    {
+        question: "Meko khane mein sabse zda kya psand hai? 🍽️",
+        options: ["Samose", "Aalu ke prathe", "Paneer", "Pizza"],
+        correct: 1,
+        mood: "😋"
+    },
+    {
+        question: "Mera sabse bada fear kya hai? 😟",
+        options: ["Height", "Losing you", "Paani mein doob jana", "Family nhi ho"],
+        correct: 3,
+        mood: "🥺"
+    },
+    {
+        question: "Hum log pheli baar kha mile the? 🤔",
+        options: ["Class me", "Cafe mein", "Auditorium mein", "Yaad nhi"],
+        correct: 0,
+        mood: "📚"
+    },
+    {
+        question: "Merko tumhari sabse achi baat kya lagti hai? 🌸",
+        options: ["Sirat", "Samjna", "Pyar 🥹", "Pareshan karna"],
+        correct: 1,
+        mood: "🌷"
+    },
+    {
+        question: "Mera fav gift agr kuch ho tho wo kya hoga? 🎁",
+        options: ["Toys", "Pyari watch", "Tumhara sath ek din", "Sukoon sath"],
+        correct: 3,
+        mood: "🕊️"
+    },
+    {
+        question: "Meko life mein sabse zda gussa kis baat pr aaya hai? 😤",
+        options: ["Jhoot", "Dost se jhagda", "Family pr baat", "Mere upr koi baat"],
+        correct: 2,
+        mood: "🔥"
+    },
+    {
+        question: "Mai tumhe kis name se bulata hoon? 🧞‍♂️",
+        options: ["Madhu", "Paglot", "Meri jaan", "Oye chipkali"],
+        correct: 0,
+        mood: "😘"
+    },
+    {
+        question: "Agar mai kisi cafe mein hoon tho mai tumhare liye kya launga? ☕",
+        options: ["Samose", "Chipkali", "Aalu ka pratha", "Paneer"],
+        correct: 1,
+        mood: "😂"
+    },
+    {
+        question: "Mujhe subah uthke sabse pehle kya yaad aata hai? 🌅",
+        options: ["Tumhari muskaan", "Pending kaam", "Phone ka charger", "Naya idea"],
+        correct: 1,
+        mood: "🌞"
+    },
+    {
+        question: "Mujhe kis cheez pe sabse zyada emotional feel hota hai? 💭",
+        options: ["Old memories", "Tumhara gussa", "Tumhara rona", "Apni family"],
+        correct: 3,
+        mood: "🥺"
+    },
+    {
+        question: "Agar tum ro rahi ho, toh mai kya karta hoon? 😢",
+        options: ["Rulaunga aur zyada", "Chup karaunga", "Sath baith jaunga", "Gussa karunga"],
+        correct: 1,
+        mood: "🫂"
+    },
+    {
+        question: "Raat ko sone se pehle main kya karta hoon? 🌙",
+        options: ["Tumse baat", "Music", "Kaam karta hoon ya fir ghoomta hoon paglo ki tarah jab tumse baat nahi hoti 😔", "Just sleep"],
+        correct: 2,
+        mood: "🌃"
+    },
+    {
+        question: "Agar mai kahin dur chala jaun, toh tumse kya expect karunga? 🚶‍♂️",
+        options: ["Rona", "Ignore", "Wait karna", "Aana lene"],
+        correct: 2,
+        mood: "🧳"
+    },
+    {
+        question: "Mujhe sabse zyada kis time tumhari yaad aati hai? ⏰",
+        options: ["Subah uthte hi", "Raat ko sone se pehle", "Khud se baat karte waqt", "Har waqt"],
+        correct: 3,
+        mood: "🕰️"
+    },
+    {
+        question: "Agar tum gussa ho jao toh mai kya karta hoon? 😅",
+        options: ["Ignore karta hoon", "Mana leta hoon", "Khud bhi gussa ho jaata hoon", "Call karta rehta hoon"],
+        correct: 3,
+        mood: "📞"
+    },
+    {
+        question: "Agar tum mujhe bina bataye offline chali jao toh meri reaction? 📵",
+        options: ["Ignore karta hoon", "Busy ho jaata hoon", "Busy maan leta hoon", "Sochta hoon tum gussa ho"],
+        correct: 2,
+        mood: "🧠"
+    },
+    {
+        question: "Agar hum dono ek movie dekh rahe ho, toh mai zyada kya karta hoon? 🎬",
+        options: ["Movie dekhta hoon", "Tumhe dekhta hoon", "Yha publically bata nhi sakta 😅", "Tumhara haath pakadta hoon"],
+        correct: 2,
+        mood: "🎥"
+    },
+    {
+        question: "Mujhe tumhari smile kab sabse sundar lagti hai? 😊",
+        options: ["Mujhe dekhte waqt", "Bina wajah", "Side me muh karte waqt 😅", "Sharmaate waqt"],
+        correct: 2,
+        mood: "🌸"
+    },
+    {
+        question: "Agar hum dono ek saath trip pe jaayein toh mai kya karna pasand karunga? ✈️",
+        options: ["Photos lena", "Tumhare sath har chiz try karna", "Khaana try karna", "Ghumna bina plan ke"],
+        correct: 1,
+        mood: "🏞️"
+    },
+    {
+        question: "Mujhe kis baat pe sabse zyada possessive feel hota hai? 🥹",
+        options: ["Tumhare status pe", "Tumhare doston pe", "Tumhare tone pe", "Tumhara ignore karna"],
+        correct: 3,
+        mood: "😬"
+    },
+    {
+        question: "Agar tum mujhe randomly 'I love you' bolo, toh meri pehli reaction kya hoti hai? 💌",
+        options: ["Smile karta hoon", "Tumhe chhedta hoon", "Sharma jaata hoon", "Same reply deta hoon"],
+        correct: 0,
+        mood: "❤️"
+    },
+    {
+        question: "Tumhara naam jab screen pe aata hai, toh mai... 📱",
+        options: ["Ignore karta hoon", "Dil se smile karta hoon", "Call miss kar deta hoon", "Bas dekhta rehta hoon"],
+        correct: 1,
+        mood: "😊"
+    },
+    {
+        question: "Agar tum mujhe bina wajah 'miss you' bolo, toh mai? 💌",
+        options: ["Sharma jaata hoon", "Galti tumhari hai, gayi kyu?", "Tumse chipak jaata hoon", "Reply nahi karta"],
+        correct: 1,
+        mood: "💘"
+    },
+    {
+        question: "Agar tum boring feel kar rahi ho, toh mai kya suggest karta hoon? 🎮",
+        options: ["Mujhse baat karo 😏", "Soya karo", "Phone chhodo", "Drama karo thoda"],
+        correct: 0,
+        mood: "🎯"
+    },
+    {
+        question: "Agar hum dono lad rahe ho, toh mai kya karta hoon mostly? 💢",
+        options: ["Chup ho jaata hoon", "Maan jaata hoon", "Zyada bolta hoon", "Ignore karta hoon"],
+        correct: 0,
+        mood: "🙃"
+    },
+    {
+        question: "Tumhara sabse bada drama kya lagta hai mujhe? 🎭",
+        options: ["Gussa hokar chup rehna", "Ignore karna", "Mujhe blame dena", "Rona bina reason ke"],
+        correct: 0,
+        mood: "😅"
+    },
+    {
+        question: "Agar hum ek hi room me ho aur light chali jaaye, toh mai... 🔦",
+        options: [
+            "Chup reh jaata hoon",
+            "Tumhe dara deta hoon (ghar mein hoon toh 😈)",
+            "Chipak jaata hoon",
+            "Mobile ka torch on karta hoon"
+        ],
+        correct: 1,
+        mood: "👻"
+    }
+
+];
+
+
+        // Enhanced cute names array
+        const cuteNames = [
+            "Madhu", "Paglot", "Meri Jaan", "Bacha", "Oye Paglot", 
+            "Suno", "Oyeee Paglot", "Oye Meri Chipkali", "Jaan", 
+            "Bachi", "Damru", "Oye Titanic", "Cutie", "Sweetheart",
+            "Baby", "Princess", "Angel", "Sunshine"
+        ];
+
+        // Enhanced supportive messages
+        const supportiveMessages = [
+            "i know karlogi pglot! 💕",
+            "Keep going, meri jaan! ✨",
+            "aage bado meri jaan! 🌟",
+            "So proud of you paglot! 💖",
+            "kuch tho pata hai! 🥰",
+            "Amazing work, paglot! 😍",
+            "You're the best, meri jo ho! 💫",
+            "oyeee, baby! ⭐",
+            "Perfect as always! 💝",
+            "You're my star meri jaan! 🌙",
+            "meri madhu sabse best 🎈",
+            "Oyee chipkali! 👑"
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+        let correctAnswers = 0;
+
+        // Enhanced initialization
+        function init() {
+            createFloatingElements();
+            startNameAnimation();
+            startSupportiveMessages();
+            createFloatingLoveMessages();
+        }
+
+        // Enhanced floating elements creation
+        function createFloatingElements() {
+            const container = document.getElementById('floatingElements');
+            
+            // Create floating hearts
+            for (let i = 0; i < 15; i++) {
+                setTimeout(() => {
+                    createHeart();
+                }, i * 1000);
+            }
+            
+            // Create floating particles
+            for (let i = 0; i < 20; i++) {
+                setTimeout(() => {
+                    createParticle();
+                }, i * 800);
+            }
+            
+            // Create photo frames
+            for (let i = 0; i < 8; i++) {
+                createPhotoFrame();
+            }
+            
+            setInterval(createHeart, 2000);
+            setInterval(createParticle, 1500);
+        }
+
+        // Enhanced heart creation
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.textContent = Math.random() > 0.5 ? '💖' : '💕';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDelay = Math.random() * 2 + 's';
+            heart.style.animationDuration = (8 + Math.random() * 4) + 's';
+            document.getElementById('floatingElements').appendChild(heart);
+            
+            setTimeout(() => {
+                if (heart.parentNode) {
+                    heart.parentNode.removeChild(heart);
+                }
+            }, 12000);
+        }
+
+        // Enhanced particle creation
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            const size = Math.random() * 8 + 4;
+            particle.style.width = size + 'px';
+            particle.style.height = size + 'px';
+            particle.style.left = Math.random() * 100 + 'vw';
+            particle.style.background = `hsl(${Math.random() * 60 + 300}, 70%, 70%)`;
+            particle.style.animationDelay = Math.random() * 3 + 's';
+            particle.style.animationDuration = (12 + Math.random() * 8) + 's';
+            document.getElementById('floatingElements').appendChild(particle);
+            
+            setTimeout(() => {
+                if (particle.parentNode) {
+                    particle.parentNode.removeChild(particle);
+                }
+            }, 20000);
+        }
+
+        // Enhanced photo frame creation
+        function createPhotoFrame() {
+            const frame = document.createElement('div');
+            frame.className = 'photo-frame';
+            frame.textContent = '📸';
+            frame.style.left = Math.random() * 90 + 'vw';
+            frame.style.top = Math.random() * 90 + 'vh';
+            frame.style.animationDelay = Math.random() * 5 + 's';
+            frame.style.animationDuration = (10 + Math.random() * 10) + 's';
+            document.getElementById('floatingElements').appendChild(frame);
+        }
+
+        // Enhanced floating love messages
+        function createFloatingLoveMessages() {
+            const messages = [
+                "I love you", "You're beautiful", "Happy Birthday", "My angel", 
+                "Forever yours", "You're perfect", "My heart", "Sweetest dreams",
+                "Be mine", "Adorable", "Precious", "My world"
+            ];
+            
+            setInterval(() => {
+                const message = document.createElement('div');
+                message.className = 'love-message';
+                message.textContent = messages[Math.floor(Math.random() * messages.length)];
+                message.style.left = Math.random() * 90 + 'vw';
+                message.style.top = Math.random() * 90 + 'vh';
+                message.style.animationDelay = Math.random() * 2 + 's';
+                document.getElementById('floatingElements').appendChild(message);
+                
+                setTimeout(() => {
+                    if (message.parentNode) {
+                        message.parentNode.removeChild(message);
+                    }
+                }, 15000);
+            }, 3000);
+        }
+
+        // Enhanced name animation
+        function startNameAnimation() {
+            const nameDisplay = document.querySelector('.name-display');
+            let nameIndex = 0;
+            
+            setInterval(() => {
+                nameDisplay.style.transform = 'scale(0.8) rotateY(90deg)';
+                nameDisplay.style.opacity = '0.3';
+                
+                setTimeout(() => {
+                    nameIndex = (nameIndex + 1) % cuteNames.length;
+                    nameDisplay.textContent = cuteNames[nameIndex];
+                    nameDisplay.style.transform = 'scale(1) rotateY(0deg)';
+                    nameDisplay.style.opacity = '1';
+                }, 300);
+            }, 1000);
+        }
+
+        // Enhanced floating names
+        function createFloatingName() {
+            const name = document.createElement('div');
+            name.className = 'floating-name';
+            name.textContent = cuteNames[Math.floor(Math.random() * cuteNames.length)];
+            name.style.left = Math.random() * 80 + 10 + 'vw';
+            name.style.top = Math.random() * 80 + 10 + 'vh';
+            name.style.animationDelay = Math.random() * 2 + 's';
+            document.getElementById('floatingNames').appendChild(name);
+            
+            setTimeout(() => {
+                if (name.parentNode) {
+                    name.parentNode.removeChild(name);
+                }
+            }, 8000);
+        }
+
+        setInterval(createFloatingName, 4000);
+
+        // Enhanced supportive messages
+        function startSupportiveMessages() {
+            const supportiveElement = document.getElementById('supportiveMessage');
+            let messageIndex = 0;
+            
+            setInterval(() => {
+                supportiveElement.style.transform = 'translateX(400px)';
+                supportiveElement.style.opacity = '0';
+                
+                setTimeout(() => {
+                    messageIndex = (messageIndex + 1) % supportiveMessages.length;
+                    supportiveElement.textContent = supportiveMessages[messageIndex];
+                    supportiveElement.style.transform = 'translateX(0)';
+                    supportiveElement.style.opacity = '1';
+                }, 500);
+            }, 3000);
+        }
+
+        // Enhanced quiz start
+        function startQuiz() {
+            document.getElementById('landingPage').style.display = 'none';
+            document.getElementById('quizContainer').style.display = 'block';
+            loadQuestion();
+            createCelebrationEffects();
+        }
+
+        // Enhanced question loading
+        function loadQuestion() {
+            if (currentQuestion >= quizData.length) {
+                endQuiz();
+                return;
+            }
+            
+            const question = quizData[currentQuestion];
+            document.getElementById('questionCounter').textContent = `Question ${currentQuestion + 1}/30`;
+            document.getElementById('scoreDisplay').textContent = `Score: ${score}/7`;
+            document.getElementById('moodIndicator').textContent = question.mood;
+            document.getElementById('questionText').textContent = question.question;
+            document.getElementById('feedback').style.display = 'none';
+            
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            
+            question.options.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.className = 'option';
+                button.textContent = option;
+                button.onclick = () => selectAnswer(index);
+                optionsContainer.appendChild(button);
+            });
+            
+            updateProgress();
+        }
+
+        // Enhanced answer selection
+        function selectAnswer(selectedIndex) {
+            const options = document.querySelectorAll('.option');
+            const question = quizData[currentQuestion];
+            const feedback = document.getElementById('feedback');
+            
+            options.forEach(option => option.disabled = true);
+            
+            if (selectedIndex === question.correct) {
+                options[selectedIndex].classList.add('correct');
+                score++;
+                correctAnswers++;
+                feedback.textContent = "Perfect! Just like you! 💖";
+                feedback.className = 'feedback success';
+                createAnswerFeedback("Correct! 🌟", true);
+                createConfetti();
+            } else {
+                options[selectedIndex].classList.add('wrong');
+                options[question.correct].classList.add('correct');
+                feedback.textContent = "That's okay, you're still amazing! 💕";
+                feedback.className = 'feedback error';
+                createAnswerFeedback("Keep trying! 💪", false);
+            }
+            
+            feedback.style.display = 'block';
+            
+            setTimeout(() => {
+                currentQuestion++;
+                loadQuestion();
+            }, 2500);
+        }
+
+        // Enhanced progress update
+        function updateProgress() {
+            const progress = ((currentQuestion) / quizData.length) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        // Enhanced quiz ending
+        function endQuiz() {
+            document.getElementById('quizContainer').style.display = 'none';
+            
+            // Show special note only if answered at least 6 correctly
+            if (correctAnswers >= 6) {
+                document.getElementById('specialNote').style.display = 'block';
+                createMassiveConfetti();
+                playBirthdayCelebration();
+            } else {
+                // Show encouraging message if less than 6 correct
+                const encourageNote = document.getElementById('specialNote');
+                encourageNote.querySelector('.note-content').innerHTML = `
+                    Don't worry my love! <span class="love-heart">💖</span><br><br>
+                    You got ${correctAnswers} out of 7 correct! You're still perfect to me!<br><br>
+                    Happy Birthday anyway! <span class="love-heart">💕</span><br><br>
+                    Want to try again? You can do it! 🌟✨
+                `;
+                encourageNote.style.display = 'block';
+            }
+        }
+
+        // Enhanced answer feedback
+        function createAnswerFeedback(message, isCorrect) {
+            const feedback = document.createElement('div');
+            feedback.className = 'answer-feedback';
+            feedback.textContent = message;
+            feedback.style.background = isCorrect ? 
+                'linear-gradient(135deg, #4facfe, #00f2fe)' : 
+                'linear-gradient(135deg, #fa709a, #fee140)';
+            document.body.appendChild(feedback);
+            
+            setTimeout(() => {
+                if (feedback.parentNode) {
+                    feedback.parentNode.removeChild(feedback);
+                }
+            }, 2000);
+        }
+
+        // Enhanced confetti creation
+        function createConfetti() {
+            const colors = ['#ff6b9d', '#4facfe', '#f093fb', '#fee140', '#fa709a'];
+            for (let i = 0; i < 15; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.className = 'confetti';
+                    confetti.style.left = Math.random() * 100 + 'vw';
+                    confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.width = Math.random() * 10 + 5 + 'px';
+                    confetti.style.height = confetti.style.width;
+                    confetti.style.borderRadius = '50%';
+                    document.body.appendChild(confetti);
+                    
+                    setTimeout(() => {
+                        if (confetti.parentNode) {
+                            confetti.parentNode.removeChild(confetti);
+                        }
+                    }, 3000);
+                }, i * 100);
+            }
+        }
+
+        // Enhanced massive confetti for perfect score
+        function createMassiveConfetti() {
+            const colors = ['#ff6b9d', '#4facfe', '#f093fb', '#fee140', '#fa709a', '#667eea', '#764ba2'];
+            for (let i = 0; i < 100; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.className = 'confetti';
+                    confetti.style.left = Math.random() * 100 + 'vw';
+                    confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.width = Math.random() * 15 + 8 + 'px';
+                    confetti.style.height = confetti.style.width;
+                    confetti.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
+                    confetti.style.animationDuration = Math.random() * 2 + 2 + 's';
+                    document.body.appendChild(confetti);
+                    
+                    setTimeout(() => {
+                        if (confetti.parentNode) {
+                            confetti.parentNode.removeChild(confetti);
+                        }
+                    }, 4000);
+                }, i * 50);
+            }
+        }
+
+        // Enhanced celebration effects
+        function createCelebrationEffects() {
+            setTimeout(() => {
+                for (let i = 0; i < 5; i++) {
+                    setTimeout(createHeart, i * 500);
+                }
+            }, 1000);
+        }
+
+        // Enhanced birthday celebration
+        function playBirthdayCelebration() {
+            // Create special birthday hearts
+            for (let i = 0; i < 20; i++) {
+                setTimeout(() => {
+                    const heart = document.createElement('div');
+                    heart.innerHTML = '🎂';
+                    heart.className = 'heart';
+                    heart.style.left = Math.random() * 100 + 'vw';
+                    heart.style.fontSize = Math.random() * 20 + 20 + 'px';
+                    document.getElementById('floatingElements').appendChild(heart);
+                    
+                    setTimeout(() => {
+                        if (heart.parentNode) {
+                            heart.parentNode.removeChild(heart);
+                        }
+                    }, 10000);
+                }, i * 200);
+            }
+        }
+
+        // Initialize everything when page loads
+        window.addEventListener('load', init);
+
+        // Enhanced mobile responsiveness
+        function adjustForMobile() {
+            if (window.innerWidth < 768) {
+                const particles = document.querySelectorAll('.particle, .heart');
+                particles.forEach(particle => {
+                    if (Math.random() > 0.5) {
+                        particle.style.display = 'none';
+                    }
+                });
+            }
+        }
+
+        window.addEventListener('resize', adjustForMobile);
+        adjustForMobile();
+    </script>
+</body>
+</html>
